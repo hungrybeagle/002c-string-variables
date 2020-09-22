@@ -6,7 +6,6 @@ Objectives:
 
 Remember, a string variable is one that does not contain numerical values, but instead contains words or collections of symbols.  Some of the mathematical operators that we can use with numbers can also be used with strings.
 
-+ 
 The + sign can be used to join two strings together.  These can be variables that contain strings or they can be just strings themselves
 examples:
 ```
@@ -18,7 +17,6 @@ answer = word1 + " " + word2  # this one joins the 2 words together, but also ad
 joined = "hello" + "world"    # this can also be used to join 2 strings together directly
 ```
 
-*
 The * sign can be used to repeat a string a number of times.  The format is: int * string
 examples:
 ```
