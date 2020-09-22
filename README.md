@@ -72,7 +72,7 @@ here, kitty kitty kitty
 
 ##### Task 6
 Open up the file task6.py
-It is not currently working. 
+It is not currently displaying the correct result. 
 Correct the program so that it correctly displays the output:
 ```
 The future belongs to those who believe in the beauty of their dreams.
