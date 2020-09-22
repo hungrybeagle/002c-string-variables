@@ -69,7 +69,9 @@ here, kitty kitty kitty
 ##### Task 6
 Open up the file task6.py
 It is not currently working. 
-Correct the program so that it correctly displays the output
+Correct the program so that it correctly displays the output:
+```
 The future belongs to those who believe in the beauty of their dreams.
+```
 (1 points) 
 
