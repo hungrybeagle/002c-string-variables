@@ -37,7 +37,7 @@ Display the new variable using the print() command
 (1 points) 
 
 ##### Task 2
-Copy all of a1.py and store it into a file called task2.py
+Copy all of task1.py and store it into a file called task2.py
 Modify the existing code so that the two words are placed on different lines
 Hint: You will need to use the escaped character that represents a line break
 Your program still needs to have the new value stored in result and should display the output
