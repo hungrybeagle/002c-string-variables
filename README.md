@@ -53,21 +53,21 @@ print() the result
 (1 points) 
 
 ##### Task 4
-Open up the file a4.py
+Open up the file task4.py
 It is not currently working because there are several errors.  
 Correct the program so that it correctly displays the output:
 This little piggy went to market.
 (1 points) 
 
 ##### Task 5
-Open up the file a5.py
+Open up the file task5.py
 It is not currently working. 
 Correct the program so that it correctly displays the output:
 here, kitty kitty kitty
 (1 points) 
 
 ##### Task 6
-Open up the file a6.py
+Open up the file task6.py
 It is not currently working. 
 Correct the program so that it correctly displays the output
 The future belongs to those who believe in the beauty of their dreams.
