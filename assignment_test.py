@@ -1,13 +1,9 @@
 #! python3
 
-import assignment
+import task1, task2, task3, task4, task5, task6
 
 def test1():
-  assert assignment.function() == expected output
-
-def test2():
-  assert "needle" in assignment.function()
-  assert "needle2" in assignment.function(),"error Message"
+  assert task1.result == "dog barked"
 
 def test3():
-  assert assignment.function() == expected output
+  assert task3.result != "donutdonutdonnutdonutdonut"
