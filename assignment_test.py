@@ -7,4 +7,3 @@ def test1():
 
 def test3():
   assert hasattr(task3, 'result'+ == false)
-  assert  len(task3.locals()) == 11 
