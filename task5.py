@@ -3,6 +3,6 @@
 start = "here" repeats = 4
 word = "kitty "
 
-start + 4*word = result
+start + repeats*word = result
 
   print(result)
