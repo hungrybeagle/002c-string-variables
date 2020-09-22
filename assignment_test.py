@@ -6,4 +6,4 @@ def test1():
   assert task1.result == "dog barked"
 
 def test3():
-  assert task3.result != "donutdonutdonnutdonutdonut"
+  assert hasattr(task3, 'result'+ == false)
