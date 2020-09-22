@@ -48,7 +48,7 @@ Create a file called a3.py
 You will create 2 variables: x and y
 Store the numerical value of 5 into x
 Store the string value of "donut" into y
-Create a variable called result that has the product of x and y
+Do not create a variable to store the result, but instead print the result directly using x and y in the print statement.
 print() the result
 (1 points) 
 
