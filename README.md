@@ -2,28 +2,31 @@
 ### Assignment #002b Variable Operations with Strings (Total Marks 8)
 
 Objectives:
-* To user operators with string variables
+* To use mathematical operators with string variables
 
 Remember, a string variable is one that does not contain numerical values, but instead contains words or collections of symbols.  Some of the mathematical operators that we can use with numbers can also be used with strings.
 
 + 
 The + sign can be used to join two strings together.  These can be variables that contain strings or they can be just strings themselves
 examples:
+```
 word1 = "Hello"
 word2 = "world"
-answer = word1 + word2        # this one will join the 2 words together directly, but notice no space!
+answer = word1 + word2        
 answer = word1 + " " + word2  # this one joins the 2 words together, but also adds a space in the middle
 
 joined = "hello" + "world"    # this can also be used to join 2 strings together directly
+```
 
 *
 The * sign can be used to repeat a string a number of times.  The format is: int * string
 examples:
+```
 word1 = "star"
 num1 = 5
 answer = num1 * word1         # this example uses variables that contain an int and a word
 answer = 5 * "star"           # this example uses an actual number and a string literal
-
+```
 
 ### 6 Tasks
 
