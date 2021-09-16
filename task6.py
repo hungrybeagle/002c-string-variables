@@ -1,3 +1,9 @@
 #!python3
-
-print("The future belongs to those" + + "who believe in the beauty" + "\n" of their dreams."
+"""
+Correct the code so that it displays the following.  Choose an appropriate command to not have the space between the $ and the wage variable
+```
+John earns $6 per hour
+```
+"""
+wage = 6
+print("John earns $" , wage , "dollars")

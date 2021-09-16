@@ -3,10 +3,14 @@
 
 Objectives:
 * To use mathematical operators with string variables
+* Explore different ways of combining variables and string literals
 
 Remember, a string variable is one that does not contain numerical values, but instead contains words or collections of symbols.  Some of the mathematical operators that we can use with numbers can also be used with strings.
 
-The + sign can be used to join two strings together.  These can be variables that contain strings or they can be just strings themselves
+The + sign can be used to join two strings together.  These can be variables that contain strings or they can be just strings themselves.  The joining of two string
+literals in this way is called "concatenation" or we are "concatenating" these string
+literals.
+
 examples:
 ```
 word1 = "Hello"
@@ -25,6 +29,47 @@ num1 = 5
 answer = num1 * word1         # this example uses variables that contain an int and a word
 answer = 5 * "star"           # this example uses an actual number and a string literal
 ```
+
+There are times when we might want to combine a variable and a string literal in a 
+print statement.  There are several ways to do so, and the method you pick may
+depend on the situation or your personal preference.
+
+Consider the following:
+```
+x = 6
+print(x)
+```
+This will only print the variable, but suppose you want the output to look like this:
+```
+The number is 6
+```
+
+Option 1:
+Convert or CAST the integer value of x into a string literal
+x = 6
+xv = str(x)
+print("The number is " + xv)
+
+or
+x=6
+print("The number is " + str(x) )
+
+
+Option 2:
+Use the comma to separate output in your print statement. Note: the output will always be separated by a space, so this is not as good if you wanted to not have a space there.
+x = 6
+print("The number is " , x)
+
+Option 3:
+Use formatted strings using the f-string
+x = 6
+print(f"The number is {x}")
+
+Option 4:
+Use the "end" option to not put a line break after a print statement. This is excellent if you are not sure how many things you need to add, but you want them all to be on the same line.
+x = 6
+print("The number is " , end="")
+print(x)
 
 ### 6 Tasks
 
@@ -72,10 +117,10 @@ here, kitty kitty kitty
 
 ##### Task 6
 Open up the file task6.py
-It is not currently displaying the correct result. 
-Correct the program so that it correctly displays the output:
+Correct the code so that it displays the following.  Choose an appropriate command to not have the space between the $ and the wage variable
 ```
-The future belongs to those who believe in the beauty of their dreams.
+John earns $6 per hour
 ```
 (1 points) 
 
+###### Task 
