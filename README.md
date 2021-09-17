@@ -89,7 +89,7 @@ Your program still needs to have the new value stored in result and should displ
 (1 points) 
 
 ##### Task 3
-Create a file called a3.py
+Create a file called task3.py
 You will create 2 variables: x and y
 Store the numerical value of 5 into x
 Store the string value of "donut" into y
